@@ -1,7 +1,8 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
+# Nuxt 3
+#### Nuxt + Vite
+#### Tailwind
+#### Sass
+#### Typescript
 ## Setup
 
 Make sure to install the dependencies:
