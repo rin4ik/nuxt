@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss'],
     css: [
-        '@/assets/css/main.css',
+        '@/assets/app.scss',
     ],
     app: {
         head: {
