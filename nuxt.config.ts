@@ -7,7 +7,11 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
     ],
     build: {
-        transpile: ['@heroicons/vue']
+        transpile: [
+            '@heroicons/vue',
+            '@headlessui/vue',
+            '@pinia/nuxt'
+        ]
     },
     srcDir: 'src/',
     css: [
