@@ -1,11 +1,11 @@
 {
     // https://v3.nuxtjs.org/concepts/typescript
     "extends": "./.nuxt/tsconfig.json",
-    "types": [
-        // ...
-        "@pinia/nuxt"
-    ],
     "vueCompilerOptions": {
-        "jsx": "preserve"
+        "jsx": "preserve",
+        "types": [
+            // ...
+            "@pinia/nuxt"
+        ]
     }
 }
