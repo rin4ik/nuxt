@@ -3,6 +3,7 @@
 #### Tailwind
 #### Sass
 #### Typescript
+### Pinia for state management
 ## Setup
 
 Make sure to install the dependencies:
