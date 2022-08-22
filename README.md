@@ -1,9 +1,5 @@
-# Nuxt 3
-#### Nuxt + Vite
-#### Tailwind
-#### Sass
-#### Typescript
-### Pinia for state management
+# Nuxt 3,
+### Nuxt, Vite, Tailwind, Sass, Typescript, Pinia for state management
 ## Setup
 
 Make sure to install the dependencies:
