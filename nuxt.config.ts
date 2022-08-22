@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     build: {
         transpile: ['@heroicons/vue']
     },
+    srcDir: 'src/',
     css: [
         '@/assets/app.scss',
     ],

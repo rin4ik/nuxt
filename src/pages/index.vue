@@ -25,8 +25,9 @@
                         </div>
                         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                             <a href="#"
-                                class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign
-                                in </a>
+                                class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                                Sign in
+                            </a>
                             <a href="#"
                                 class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                                 Sign up </a>
@@ -86,13 +87,13 @@
 <script lang="ts">
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
-
 const navigation = [
     { name: 'About', href: '#' },
     { name: 'Contact', href: '#' },
     { name: 'Company', href: '#' },
 ]
 export default defineComponent({
+    name: "Home",
     components: {
         Popover,
         PopoverButton,
@@ -113,7 +114,7 @@ export default defineComponent({
     },
     setup() {
         return {
-            navigation,
+            navigation
         }
     },
 })
