@@ -20,8 +20,8 @@
                             </div>
                         </div>
                         <div class="hidden md:flex md:space-x-10">
-                            <a v-for="item in navigation" :key="item.name" :href="item.href"
-                                class="font-medium text-gray-500 hover:text-gray-900">{{ item.name }}</a>
+                            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
+                                class="font-medium text-gray-500 hover:text-gray-900">{{ item.name }}</NuxtLink>
                         </div>
                         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                             <a href="#"
@@ -87,6 +87,7 @@
 <script lang="ts">
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+import { useTest } from "@/store/test";
 const navigation = [
     { name: 'About', href: '#' },
     { name: 'Contact', href: '#' },
