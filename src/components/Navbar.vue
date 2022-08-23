@@ -27,7 +27,7 @@
                 
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                    <div class="hidden ml-4 md:flex md:space-x-10">
-                        <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
+                        <NuxtLink v-for="item in navigation2" :key="item.name" :to="item.href"
                             class="font-medium text-base text-gray-900 hover:text-gray-500 active:main-active">{{ item.name }}</NuxtLink>
                     </div>
                     <a href="#"
@@ -78,6 +78,10 @@ const navigation = [
     { name: 'Link1', href: '/link1' },
     { name: 'Link2', href: '/link2' },
 ]
+const navigation2 = [
+    { name: 'Link3', href: '/link3' },
+    { name: 'Link4', href: '/link4' },
+]
 export default defineComponent({
     components: {
         Popover,
@@ -89,7 +93,8 @@ export default defineComponent({
     
     setup() {
         return {
-            navigation
+            navigation,
+            navigation2
         }
     },
 })

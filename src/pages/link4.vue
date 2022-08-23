@@ -1,18 +1,17 @@
 <template>
-    <div class="text-center">First Link</div>
+    <div class="text-center">Fourth Link</div>
 </template>
-
 <script lang="ts">
 export default defineComponent({
-    name: "Link1",
+    name: "Link2",
     head() {
         return {
-            titleTemplate: `%s - ${process.env}`,
+            titleTemplate: '%s - Link4',
             meta: [
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'Link1 page description'
+                    content: 'Link4 page description'
                 }
             ]
         };

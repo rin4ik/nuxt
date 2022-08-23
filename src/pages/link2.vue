@@ -11,7 +11,7 @@ export default defineComponent({
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'Home page description'
+                    content: 'Link2 page description'
                 }
             ]
         };
