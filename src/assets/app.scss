@@ -1,8 +1,30 @@
 @import 'variables';
 
-html, body {
+@tailwind utilities;
+@layer utilities {
+    .bg-main-active {
+        background: var(--mainActive)
+    }
+    .bg-main-active-lighter {
+        background: var(--mainActiveLighter)
+    }
+    .main-active {
+        color: var(--mainActive);
+    }
+}
+html, body, #__nuxt {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     background: var(--appBackground);
 }
+
+/* home route and active route will show in bold as it matches / and /about */
+a.router-link-active {
+    color: var(--mainActive);
+
+  }
+  /* exact link will show the primary color for only the exact matching link */
+  a.router-link-exact-active {
+    color: var(--mainActive) !important;
+  }

@@ -2,9 +2,13 @@ $setActive: #F05848;
 $darkRed: #51302D;
 $vineRed: #933941;
 $bronse: #FE6C61;
-$appBackground: #fafafa;
+$appBackground: #faf8f8;
+$mainActive: #085ed0;
+$mainActiveLighter: #1473ee;
 :root {
     --appBackground: #{$appBackground};
+    --mainActive: #{$mainActive};
+    --mainActiveLighter: #{$mainActiveLighter};
     --setActive: #{$setActive};
     --darkRed: #{$darkRed};
     --vineRed: #{$vineRed};
