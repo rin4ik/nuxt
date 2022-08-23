@@ -14,7 +14,7 @@ export default defineComponent({
     name: "Home",
     head() {
         return {
-            title: "Home Page",
+            titleTemplate: '%s - make your business global with fast & accurate video dubbing',
             meta: [
                 { name: "twitter:title", content: "Nuxt Async" },
                 { name: "twitter:description", content: "Nuxt + ME = 🍕" },
